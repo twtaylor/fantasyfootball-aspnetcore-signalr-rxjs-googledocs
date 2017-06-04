@@ -1,0 +1,9 @@
+c:\Dev\ff-media\ff-media\FantasyFootballMedia\bin\Debug\netcoreapp1.1\FantasyFootballMedia.deps.json
+c:\Dev\ff-media\ff-media\FantasyFootballMedia\bin\Debug\netcoreapp1.1\FantasyFootballMedia.runtimeconfig.json
+c:\Dev\ff-media\ff-media\FantasyFootballMedia\bin\Debug\netcoreapp1.1\FantasyFootballMedia.runtimeconfig.dev.json
+c:\Dev\ff-media\ff-media\FantasyFootballMedia\bin\Debug\netcoreapp1.1\FantasyFootballMedia.dll
+c:\Dev\ff-media\ff-media\FantasyFootballMedia\bin\Debug\netcoreapp1.1\FantasyFootballMedia.pdb
+c:\Dev\ff-media\ff-media\FantasyFootballMedia\obj\Debug\netcoreapp1.1\FantasyFootballMedia.AssemblyInfo.cs
+c:\Dev\ff-media\ff-media\FantasyFootballMedia\obj\Debug\netcoreapp1.1\FantasyFootballMedia.dll
+c:\Dev\ff-media\ff-media\FantasyFootballMedia\obj\Debug\netcoreapp1.1\FantasyFootballMedia.pdb
+C:\Dev\ff-media\ff-media\FantasyFootballMedia\obj\Debug\netcoreapp1.1\FantasyFootballMedia.csprojResolveAssemblyReference.cache

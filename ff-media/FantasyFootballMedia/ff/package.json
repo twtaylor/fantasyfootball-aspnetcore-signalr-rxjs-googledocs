@@ -1,0 +1,26 @@
+{
+  "name": "ff-media",
+  "description": "Displays a fantasy football draft results",
+  "version": "1.0.0",
+  "homepage": "https://github.com/twtaylor/ff-media",
+  "repository": "https://github.com/twtaylor/ff-media",
+  "private": true,
+  "license": "MIT",
+  "devDependencies": {},
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node app/server.js"
+  },
+  "dependencies": {
+    "array": "^0.4.3",
+    "async": "^2.0.1",
+    "bower": "^1.7.9",
+    "express": "^4.14.0",
+    "google-spreadsheet": "^2.0.3",
+    "mongoose": "^4.5.8",
+    "path": "^0.12.7",
+    "rx": "^4.1.0",
+    "rx-node": "^1.0.2",
+    "socket.io": "^1.4.8"
+  }
+}
