@@ -1,0 +1,2 @@
+C:\Dev\ff-media\ff-media\FantasyFootballMedia.Node\obj\Debug\FantasyFootballMedia.Node.njsprojResolveAssemblyReference.cache
+C:\Dev\ff-media\ff-media\FantasyFootballMedia.Node\bin\Microsoft.NodejsTools.WebRole.dll

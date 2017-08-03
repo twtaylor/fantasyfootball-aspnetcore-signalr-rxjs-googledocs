@@ -1,11 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.7
+VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasyFootballMedia", "FantasyFootballMedia\FantasyFootballMedia.csproj", "{AB3CF8A1-52CB-4DA2-B03A-811C8EA931BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasyFootballMedia.SignalR", "..\FantasyFootballMedia.SignalR\FantasyFootballMedia.SignalR.csproj", "{AC81C4E6-2242-4575-A3EC-4AC85A6B48FE}"
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "FantasyFootballMedia.Node", "FantasyFootballMedia.Node\FantasyFootballMedia.Node.njsproj", "{530EEA34-56F2-42DE-AF4C-7D6DB62E56A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{934ACEA4-B454-4179-AF27-D961F2744935}"
+	ProjectSection(SolutionItems) = preProject
+		FantasyFootballMedia\ff\plan.txt = FantasyFootballMedia\ff\plan.txt
+	EndProjectSection
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "FantasyFootballMedia.Node.Hub", "FantasyFootballMedia.Node.Hub\FantasyFootballMedia.Node.Hub.njsproj", "{D17212B2-BC7F-4532-9850-20405E7B2FA6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +24,14 @@ Global
 		{AB3CF8A1-52CB-4DA2-B03A-811C8EA931BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB3CF8A1-52CB-4DA2-B03A-811C8EA931BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB3CF8A1-52CB-4DA2-B03A-811C8EA931BA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AC81C4E6-2242-4575-A3EC-4AC85A6B48FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AC81C4E6-2242-4575-A3EC-4AC85A6B48FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AC81C4E6-2242-4575-A3EC-4AC85A6B48FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AC81C4E6-2242-4575-A3EC-4AC85A6B48FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{530EEA34-56F2-42DE-AF4C-7D6DB62E56A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{530EEA34-56F2-42DE-AF4C-7D6DB62E56A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{530EEA34-56F2-42DE-AF4C-7D6DB62E56A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{530EEA34-56F2-42DE-AF4C-7D6DB62E56A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D17212B2-BC7F-4532-9850-20405E7B2FA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D17212B2-BC7F-4532-9850-20405E7B2FA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D17212B2-BC7F-4532-9850-20405E7B2FA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D17212B2-BC7F-4532-9850-20405E7B2FA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
