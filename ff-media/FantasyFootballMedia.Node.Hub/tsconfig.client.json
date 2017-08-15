@@ -1,0 +1,9 @@
+{
+  "compilerOptions":{
+    "outDir": "Client"
+  },
+  "extends": "./base", 
+  "files": [
+    "./App/ClientApp.ts"
+  ]  
+}
