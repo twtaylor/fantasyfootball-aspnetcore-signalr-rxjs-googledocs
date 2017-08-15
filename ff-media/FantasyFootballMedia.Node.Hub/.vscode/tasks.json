@@ -2,17 +2,40 @@
     // See https://go.microsoft.com/fwlink/?LinkId=733558
     // for the documentation about the tasks.json format
     "version": "2.0.0",
-    "command": "tsc",
-    "args": ["-p", "."],
-    "problemMatcher": "$tsc",
-     "tasks": [
+    "tasks": [
         {
-            "type": "typescript",
-            "tsconfig": "tsconfig.json",
+            "taskName": "Build all",
+            "command": "tsc",
+            "args": [
+                "-p",
+                "."
+            ],
+            "problemMatcher": "$tsc",
+            "type": "shell",
             "group": {
-                "kind": "build",
+                "kind": "test",
                 "isDefault": true
             }
+        },
+        {
+            "command": "npm",
+            "taskName": "Run NPM start",
+            "type": "shell",
+            "args": [
+                "start"
+            ],
+            "isBackground": true,
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "new"
+            },
+            "options": {
+                "cwd": "./Server/"
+            },
+            "group": "none",
+            "problemMatcher": []
         }
     ]
 }
